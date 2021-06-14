@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="icon" href="https://img.icons8.com/dusk/64/000000/about-us-female.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5600fde03.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page
+    </title>
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .head {
+            border: 2px solid transparent;
+            width: 100vw;
+            height: 7vh;
+            background: #F2F2F2;
+            color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .head_common {
+            /* border: 1px solid red; */
+            display: inline-block;
+            width: 15vw;
+            margin: 1rem;
+            padding: 0.5rem;
+            align-self: center;
+            /* flex-wrap: wrap; */
+        }
+
+        .center_head {
+            display: inline-block;
+            width: 10vw;
+
+        }
+
+        .left_head {
+            margin: 3px;
+        }
+
+        .fas {
+            margin: 10px;
+            color: gray;
+        }
+
+        .icon-hover:hover {
+            background: #C9E4F9;
+            display: inline-block;
+        }
+
+        .cross_icon {
+            margin-left: 90%
+        }
+
+        .cross_icon:hover {
+            display: inline-block;
+            border: 0.1px solid transparent;
+            border-radius: 2px;
+        }
+
+        /* Center part of website design starts here */
+
+        .main-center {
+            background: #F1C50E;
+            border: 2px solid balck;
+            width: 100vw;
+            height: 53vh;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .info {
+            /* border:2px solid black; */
+            margin: -4px;
+            margin-bottom: 50px;
+            padding: 10px;
+            width: 25vw;
+            align-self: Center;
+            text-align: center;
+        }
+
+        .info-left p {
+            font-size: 20px;
+            padding: 15px;
+        }
+
+        .info-left h2 {
+            font-size: 35px;
+            padding: 0px;
+            line-height: 2px;
+            font-weight: bold;
+        }
+
+        .info-right {
+            margin-top: 65px;
+        }
+
+        .txt {
+            display: block;
+            box-sizing: border-box;
+            margin: 10px;
+            padding: 10px;
+            width: 24vw;
+            font-size: 20px;
+            background: #F1C50E;
+            border: 2px solid black;
+            border-radius: 3px;
+        }
+
+        .btn {
+            font-family: 'Rubik', sans-serif;
+            font-size: 20px;
+            border: 2px solid black;
+            margin: 17px;
+            padding: 14px 28px;
+            background: transparent;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        /* Fotter starts here */
+
+        .ftr {
+            border: 2px solid black;
+            width: 100vw;
+            height: 10vh;
+            /* text-align:center; */
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            color: white;
+            background: #333333;
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <div class="left_head head_common">
+            <img src="Images/logo.png" alt="">
+        </div>
+        </div>
+        <div class="center_head head_common">
+            <a href="#" class="icon-hover"></li><i class="fas fa-desktop" fa-lg></i></a>
+            <a href="#" class="icon-hover"></li><i class="fas fa-laptop" fa-lg></i></a>
+            <a href="#" class="icon-hover"></li><i class="fas fa-tablet-alt" fa-lg></i></a>
+            <a href="#" class="icon-hover"></li><i class="fas fa-mobile-alt" fa-lg></i></a>
+
+        </div>
+        <div class="right_head head_common">
+            <a href="#" class="cross_icon icon-hover"><i class="fas fa-times" fa-2x></i></a>
+        </div>
+    </header>
+    <!-- Center part of website design starts here -->
+    <div class="main-center">
+        <div class="info-left info">
+            <p>CALL US</p>
+            <h2>1 (234) 567-891</h2>
+            <p>MAIL</p>
+            <h2>info@abhi.com</h2>
+            <p>LOCATION</p>
+            <h2>Mumbai, India</h2>
+        </div>
+        <div class="info-right info">
+            <input type="text" name="" id="" class="txt" placeholder="Enter your Name">
+            <input type="text" name="" id="" class="txt" placeholder="Enter a valid email address">
+            <textarea name="message" rows="4" cols="52" class="txt" placeholder="Enter your message"></textarea>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+
+    <!-- Footer starts here -->
+    <footer class="ftr">
+        <p>
+
+            Created by Abhishek Gupta &copy; <em id="date"></em>2021. All rights reserved.</p>
+
+
+    </footer>
+</body>
+
+</html>
